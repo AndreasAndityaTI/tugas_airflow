@@ -2,7 +2,6 @@
 
 **Mahasiswa:** Andreas Anditya Purnama  
 **NIM:** 572392  
-**Mata Kuliah:** Data Warehouse dan Business Intelligence  
 
 ---
 
@@ -231,9 +230,7 @@ tags = ["ugm", "dwh", "superstore", "etl"]
 
 - **Transformasi tambahan:** `region_summary`, `top_products` (10), `monthly_trend`
 - **Logging terstruktur:** Format `[task_id] pesan` konsisten di semua task
-- **Visualisasi matplotlib:** `sales_overview.png` (dark theme, tren bulanan + bar kategori)
-- **Idempotent pipeline:** Bisa di-re-run berkali-kali tanpa duplikasi data
-- **SQLite warehouse:** 3 tabel terindeks siap query analitik
+- **Visualisasi matplotlib:** `dag_visualization.png` 
 - **DAG visualization:** Script `visualize_dag.py` generate graf dependency
 
 ---
