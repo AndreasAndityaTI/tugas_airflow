@@ -699,3 +699,80 @@
 [2026-09-18T13:38:45.459+0700] {logging_mixin.py:190} INFO - [2026-09-18T13:38:45.459+0700] {dag.py:3239} INFO - Sync 1 DAGs
 [2026-09-18T13:38:45.481+0700] {logging_mixin.py:190} INFO - [2026-09-18T13:38:45.481+0700] {dag.py:4180} INFO - Setting next_dagrun for etl_sederhana_572392 to 2026-09-18 00:00:00+00:00, run_after=2026-09-19 00:00:00+00:00
 [2026-09-18T13:38:45.504+0700] {processor.py:208} INFO - Processing /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/airflow_home/dags/etl_sederhana_572392.py took 0.753 seconds
+[2026-09-18T13:40:12.377+0700] {processor.py:186} INFO - Started process (PID=3457) to work on /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/airflow_home/dags/etl_sederhana_572392.py
+[2026-09-18T13:40:12.378+0700] {processor.py:914} INFO - Processing file /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/airflow_home/dags/etl_sederhana_572392.py for tasks to queue
+[2026-09-18T13:40:12.379+0700] {logging_mixin.py:190} INFO - [2026-09-18T13:40:12.378+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/airflow_home/dags/etl_sederhana_572392.py
+[2026-09-18T13:40:12.988+0700] {processor.py:925} INFO - DAG(s) 'etl_sederhana_572392' retrieved from /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/airflow_home/dags/etl_sederhana_572392.py
+[2026-09-18T13:40:13.051+0700] {logging_mixin.py:190} INFO - [2026-09-18T13:40:13.051+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-18T13:40:13.064+0700] {logging_mixin.py:190} INFO - [2026-09-18T13:40:13.063+0700] {dag.py:4180} INFO - Setting next_dagrun for etl_sederhana_572392 to 2026-09-18 00:00:00+00:00, run_after=2026-09-19 00:00:00+00:00
+[2026-09-18T13:40:13.074+0700] {processor.py:208} INFO - Processing /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/airflow_home/dags/etl_sederhana_572392.py took 0.698 seconds
+[2026-09-18T13:41:39.837+0700] {processor.py:186} INFO - Started process (PID=4508) to work on /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/airflow_home/dags/etl_sederhana_572392.py
+[2026-09-18T13:41:39.838+0700] {processor.py:914} INFO - Processing file /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/airflow_home/dags/etl_sederhana_572392.py for tasks to queue
+[2026-09-18T13:41:39.838+0700] {logging_mixin.py:190} INFO - [2026-09-18T13:41:39.838+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/airflow_home/dags/etl_sederhana_572392.py
+[2026-09-18T13:41:40.440+0700] {processor.py:925} INFO - DAG(s) 'etl_sederhana_572392' retrieved from /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/airflow_home/dags/etl_sederhana_572392.py
+[2026-09-18T13:41:40.499+0700] {logging_mixin.py:190} INFO - [2026-09-18T13:41:40.499+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-18T13:41:40.511+0700] {logging_mixin.py:190} INFO - [2026-09-18T13:41:40.511+0700] {dag.py:4180} INFO - Setting next_dagrun for etl_sederhana_572392 to 2026-09-18 00:00:00+00:00, run_after=2026-09-19 00:00:00+00:00
+[2026-09-18T13:41:40.520+0700] {processor.py:208} INFO - Processing /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/airflow_home/dags/etl_sederhana_572392.py took 0.685 seconds
+[2026-09-18T13:43:07.078+0700] {processor.py:186} INFO - Started process (PID=5388) to work on /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/airflow_home/dags/etl_sederhana_572392.py
+[2026-09-18T13:43:07.079+0700] {processor.py:914} INFO - Processing file /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/airflow_home/dags/etl_sederhana_572392.py for tasks to queue
+[2026-09-18T13:43:07.080+0700] {logging_mixin.py:190} INFO - [2026-09-18T13:43:07.079+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/airflow_home/dags/etl_sederhana_572392.py
+[2026-09-18T13:43:07.669+0700] {processor.py:925} INFO - DAG(s) 'etl_sederhana_572392' retrieved from /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/airflow_home/dags/etl_sederhana_572392.py
+[2026-09-18T13:43:07.732+0700] {logging_mixin.py:190} INFO - [2026-09-18T13:43:07.731+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-18T13:43:07.744+0700] {logging_mixin.py:190} INFO - [2026-09-18T13:43:07.744+0700] {dag.py:4180} INFO - Setting next_dagrun for etl_sederhana_572392 to 2026-09-18 00:00:00+00:00, run_after=2026-09-19 00:00:00+00:00
+[2026-09-18T13:43:07.754+0700] {processor.py:208} INFO - Processing /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/airflow_home/dags/etl_sederhana_572392.py took 0.679 seconds
+[2026-09-18T13:44:34.759+0700] {processor.py:186} INFO - Started process (PID=6270) to work on /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/airflow_home/dags/etl_sederhana_572392.py
+[2026-09-18T13:44:34.760+0700] {processor.py:914} INFO - Processing file /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/airflow_home/dags/etl_sederhana_572392.py for tasks to queue
+[2026-09-18T13:44:34.761+0700] {logging_mixin.py:190} INFO - [2026-09-18T13:44:34.761+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/airflow_home/dags/etl_sederhana_572392.py
+[2026-09-18T13:44:35.373+0700] {processor.py:925} INFO - DAG(s) 'etl_sederhana_572392' retrieved from /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/airflow_home/dags/etl_sederhana_572392.py
+[2026-09-18T13:44:35.432+0700] {logging_mixin.py:190} INFO - [2026-09-18T13:44:35.431+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-18T13:44:35.446+0700] {logging_mixin.py:190} INFO - [2026-09-18T13:44:35.446+0700] {dag.py:4180} INFO - Setting next_dagrun for etl_sederhana_572392 to 2026-09-18 00:00:00+00:00, run_after=2026-09-19 00:00:00+00:00
+[2026-09-18T13:44:35.455+0700] {processor.py:208} INFO - Processing /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/airflow_home/dags/etl_sederhana_572392.py took 0.698 seconds
+[2026-09-18T13:46:08.093+0700] {processor.py:186} INFO - Started process (PID=7222) to work on /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/airflow_home/dags/etl_sederhana_572392.py
+[2026-09-18T13:46:08.094+0700] {processor.py:914} INFO - Processing file /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/airflow_home/dags/etl_sederhana_572392.py for tasks to queue
+[2026-09-18T13:46:08.095+0700] {logging_mixin.py:190} INFO - [2026-09-18T13:46:08.095+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/airflow_home/dags/etl_sederhana_572392.py
+[2026-09-18T13:46:08.695+0700] {processor.py:925} INFO - DAG(s) 'etl_sederhana_572392' retrieved from /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/airflow_home/dags/etl_sederhana_572392.py
+[2026-09-18T13:46:08.766+0700] {logging_mixin.py:190} INFO - [2026-09-18T13:46:08.766+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-18T13:46:08.780+0700] {logging_mixin.py:190} INFO - [2026-09-18T13:46:08.780+0700] {dag.py:4180} INFO - Setting next_dagrun for etl_sederhana_572392 to 2026-09-18 00:00:00+00:00, run_after=2026-09-19 00:00:00+00:00
+[2026-09-18T13:46:08.792+0700] {processor.py:208} INFO - Processing /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/airflow_home/dags/etl_sederhana_572392.py took 0.700 seconds
+[2026-09-18T13:47:34.726+0700] {processor.py:186} INFO - Started process (PID=8142) to work on /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/airflow_home/dags/etl_sederhana_572392.py
+[2026-09-18T13:47:34.728+0700] {processor.py:914} INFO - Processing file /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/airflow_home/dags/etl_sederhana_572392.py for tasks to queue
+[2026-09-18T13:47:34.728+0700] {logging_mixin.py:190} INFO - [2026-09-18T13:47:34.728+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/airflow_home/dags/etl_sederhana_572392.py
+[2026-09-18T13:47:35.326+0700] {processor.py:925} INFO - DAG(s) 'etl_sederhana_572392' retrieved from /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/airflow_home/dags/etl_sederhana_572392.py
+[2026-09-18T13:47:35.385+0700] {logging_mixin.py:190} INFO - [2026-09-18T13:47:35.385+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-18T13:47:35.396+0700] {logging_mixin.py:190} INFO - [2026-09-18T13:47:35.396+0700] {dag.py:4180} INFO - Setting next_dagrun for etl_sederhana_572392 to 2026-09-18 00:00:00+00:00, run_after=2026-09-19 00:00:00+00:00
+[2026-09-18T13:47:35.406+0700] {processor.py:208} INFO - Processing /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/airflow_home/dags/etl_sederhana_572392.py took 0.682 seconds
+[2026-09-18T13:49:03.292+0700] {processor.py:186} INFO - Started process (PID=9176) to work on /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/airflow_home/dags/etl_sederhana_572392.py
+[2026-09-18T13:49:03.294+0700] {processor.py:914} INFO - Processing file /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/airflow_home/dags/etl_sederhana_572392.py for tasks to queue
+[2026-09-18T13:49:03.295+0700] {logging_mixin.py:190} INFO - [2026-09-18T13:49:03.295+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/airflow_home/dags/etl_sederhana_572392.py
+[2026-09-18T13:49:03.912+0700] {processor.py:925} INFO - DAG(s) 'etl_sederhana_572392' retrieved from /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/airflow_home/dags/etl_sederhana_572392.py
+[2026-09-18T13:49:03.974+0700] {logging_mixin.py:190} INFO - [2026-09-18T13:49:03.974+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-18T13:49:03.986+0700] {logging_mixin.py:190} INFO - [2026-09-18T13:49:03.986+0700] {dag.py:4180} INFO - Setting next_dagrun for etl_sederhana_572392 to 2026-09-18 00:00:00+00:00, run_after=2026-09-19 00:00:00+00:00
+[2026-09-18T13:49:03.996+0700] {processor.py:208} INFO - Processing /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/airflow_home/dags/etl_sederhana_572392.py took 0.706 seconds
+[2026-09-18T13:50:30.804+0700] {processor.py:186} INFO - Started process (PID=10257) to work on /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/airflow_home/dags/etl_sederhana_572392.py
+[2026-09-18T13:50:30.806+0700] {processor.py:914} INFO - Processing file /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/airflow_home/dags/etl_sederhana_572392.py for tasks to queue
+[2026-09-18T13:50:30.806+0700] {logging_mixin.py:190} INFO - [2026-09-18T13:50:30.806+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/airflow_home/dags/etl_sederhana_572392.py
+[2026-09-18T13:50:31.445+0700] {processor.py:925} INFO - DAG(s) 'etl_sederhana_572392' retrieved from /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/airflow_home/dags/etl_sederhana_572392.py
+[2026-09-18T13:50:31.507+0700] {logging_mixin.py:190} INFO - [2026-09-18T13:50:31.507+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-18T13:50:31.519+0700] {logging_mixin.py:190} INFO - [2026-09-18T13:50:31.519+0700] {dag.py:4180} INFO - Setting next_dagrun for etl_sederhana_572392 to 2026-09-18 00:00:00+00:00, run_after=2026-09-19 00:00:00+00:00
+[2026-09-18T13:50:31.530+0700] {processor.py:208} INFO - Processing /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/airflow_home/dags/etl_sederhana_572392.py took 0.728 seconds
+[2026-09-18T13:52:00.509+0700] {processor.py:186} INFO - Started process (PID=11355) to work on /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/airflow_home/dags/etl_sederhana_572392.py
+[2026-09-18T13:52:00.510+0700] {processor.py:914} INFO - Processing file /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/airflow_home/dags/etl_sederhana_572392.py for tasks to queue
+[2026-09-18T13:52:00.511+0700] {logging_mixin.py:190} INFO - [2026-09-18T13:52:00.511+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/airflow_home/dags/etl_sederhana_572392.py
+[2026-09-18T13:52:01.119+0700] {processor.py:925} INFO - DAG(s) 'etl_sederhana_572392' retrieved from /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/airflow_home/dags/etl_sederhana_572392.py
+[2026-09-18T13:52:01.182+0700] {logging_mixin.py:190} INFO - [2026-09-18T13:52:01.182+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-18T13:52:01.196+0700] {logging_mixin.py:190} INFO - [2026-09-18T13:52:01.196+0700] {dag.py:4180} INFO - Setting next_dagrun for etl_sederhana_572392 to 2026-09-18 00:00:00+00:00, run_after=2026-09-19 00:00:00+00:00
+[2026-09-18T13:52:01.206+0700] {processor.py:208} INFO - Processing /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/airflow_home/dags/etl_sederhana_572392.py took 0.700 seconds
+[2026-09-18T13:53:26.524+0700] {processor.py:186} INFO - Started process (PID=12332) to work on /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/airflow_home/dags/etl_sederhana_572392.py
+[2026-09-18T13:53:26.525+0700] {processor.py:914} INFO - Processing file /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/airflow_home/dags/etl_sederhana_572392.py for tasks to queue
+[2026-09-18T13:53:26.526+0700] {logging_mixin.py:190} INFO - [2026-09-18T13:53:26.526+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/airflow_home/dags/etl_sederhana_572392.py
+[2026-09-18T13:53:27.217+0700] {processor.py:925} INFO - DAG(s) 'etl_sederhana_572392' retrieved from /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/airflow_home/dags/etl_sederhana_572392.py
+[2026-09-18T13:53:27.281+0700] {logging_mixin.py:190} INFO - [2026-09-18T13:53:27.281+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-18T13:53:27.295+0700] {logging_mixin.py:190} INFO - [2026-09-18T13:53:27.294+0700] {dag.py:4180} INFO - Setting next_dagrun for etl_sederhana_572392 to 2026-09-18 00:00:00+00:00, run_after=2026-09-19 00:00:00+00:00
+[2026-09-18T13:53:27.306+0700] {processor.py:208} INFO - Processing /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/airflow_home/dags/etl_sederhana_572392.py took 0.785 seconds
+[2026-09-18T13:54:53.654+0700] {processor.py:186} INFO - Started process (PID=13385) to work on /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/airflow_home/dags/etl_sederhana_572392.py
+[2026-09-18T13:54:53.655+0700] {processor.py:914} INFO - Processing file /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/airflow_home/dags/etl_sederhana_572392.py for tasks to queue
+[2026-09-18T13:54:53.656+0700] {logging_mixin.py:190} INFO - [2026-09-18T13:54:53.656+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/airflow_home/dags/etl_sederhana_572392.py
+[2026-09-18T13:54:54.257+0700] {processor.py:925} INFO - DAG(s) 'etl_sederhana_572392' retrieved from /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/airflow_home/dags/etl_sederhana_572392.py
+[2026-09-18T13:54:54.318+0700] {logging_mixin.py:190} INFO - [2026-09-18T13:54:54.317+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-18T13:54:54.329+0700] {logging_mixin.py:190} INFO - [2026-09-18T13:54:54.329+0700] {dag.py:4180} INFO - Setting next_dagrun for etl_sederhana_572392 to 2026-09-18 00:00:00+00:00, run_after=2026-09-19 00:00:00+00:00
+[2026-09-18T13:54:54.339+0700] {processor.py:208} INFO - Processing /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/airflow_home/dags/etl_sederhana_572392.py took 0.687 seconds

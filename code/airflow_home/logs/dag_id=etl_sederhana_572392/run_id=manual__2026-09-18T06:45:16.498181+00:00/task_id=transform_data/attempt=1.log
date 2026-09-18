@@ -1,0 +1,31 @@
+[2026-09-18T13:45:27.705+0700] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-09-18T13:45:27.713+0700] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_sederhana_572392.transform_data manual__2026-09-18T06:45:16.498181+00:00 [queued]>
+[2026-09-18T13:45:27.717+0700] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_sederhana_572392.transform_data manual__2026-09-18T06:45:16.498181+00:00 [queued]>
+[2026-09-18T13:45:27.717+0700] {taskinstance.py:2867} INFO - Starting attempt 1 of 2
+[2026-09-18T13:45:27.723+0700] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): transform_data> on 2026-09-18 06:45:16.498181+00:00
+[2026-09-18T13:45:27.734+0700] {standard_task_runner.py:72} INFO - Started process 6790 to run task
+[2026-09-18T13:45:27.738+0700] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'etl_sederhana_572392', 'transform_data', 'manual__2026-09-18T06:45:16.498181+00:00', '--job-id', '21', '--raw', '--subdir', 'DAGS_FOLDER/etl_sederhana_572392.py', '--cfg-path', '/var/folders/xk/3zm4vwbd7nldz9xz371vw8x40000gn/T/tmpxemrp6xv']
+[2026-09-18T13:45:27.740+0700] {standard_task_runner.py:105} INFO - Job 21: Subtask transform_data
+[2026-09-18T13:45:27.765+0700] {task_command.py:467} INFO - Running <TaskInstance: etl_sederhana_572392.transform_data manual__2026-09-18T06:45:16.498181+00:00 [running]> on host andreass-laptop.local
+[2026-09-18T13:45:27.804+0700] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Andreas Anditya Purnama' AIRFLOW_CTX_DAG_ID='etl_sederhana_572392' AIRFLOW_CTX_TASK_ID='transform_data' AIRFLOW_CTX_EXECUTION_DATE='2026-09-18T06:45:16.498181+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-09-18T06:45:16.498181+00:00'
+[2026-09-18T13:45:27.805+0700] {logging_mixin.py:190} INFO - Task instance is in running state
+[2026-09-18T13:45:27.805+0700] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2026-09-18T13:45:27.805+0700] {logging_mixin.py:190} INFO - Current task name:transform_data state:running start_date:2026-09-18 06:45:27.713542+00:00
+[2026-09-18T13:45:27.806+0700] {logging_mixin.py:190} INFO - Dag name:etl_sederhana_572392 and current dag run status:running
+[2026-09-18T13:45:27.806+0700] {taskinstance.py:732} INFO - ::endgroup::
+[2026-09-18T13:45:27.806+0700] {etl_sederhana_572392.py:56} INFO - [transform_data] Membaca staging: /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/data/staging/superstore_staging.csv
+[2026-09-18T13:45:27.895+0700] {etl_sederhana_572392.py:56} INFO - [transform_data] Agregasi harian: 1,236 hari -> /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/data/output/daily_sales.csv
+[2026-09-18T13:45:27.899+0700] {etl_sederhana_572392.py:56} INFO - [transform_data] Agregasi kategori: 3 kategori -> /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/data/output/category_summary.csv
+[2026-09-18T13:45:27.903+0700] {etl_sederhana_572392.py:56} INFO - [transform_data] Bonus: region_summary.csv ditulis
+[2026-09-18T13:45:27.910+0700] {etl_sederhana_572392.py:56} INFO - [transform_data] Bonus: top_products.csv (10 baris) ditulis
+[2026-09-18T13:45:27.921+0700] {etl_sederhana_572392.py:56} INFO - [transform_data] Bonus: monthly_trend.csv (48 bulan)
+[2026-09-18T13:45:27.921+0700] {python.py:240} INFO - Done. Returned value was: None
+[2026-09-18T13:45:27.924+0700] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2026-09-18T13:45:27.925+0700] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=etl_sederhana_572392, task_id=transform_data, run_id=manual__2026-09-18T06:45:16.498181+00:00, execution_date=20260918T064516, start_date=20260918T064527, end_date=20260918T064527
+[2026-09-18T13:45:27.931+0700] {logging_mixin.py:190} INFO - Task instance in success state
+[2026-09-18T13:45:27.931+0700] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2026-09-18T13:45:27.931+0700] {logging_mixin.py:190} INFO - Dag name:etl_sederhana_572392 queued_at:2026-09-18 06:45:16.514306+00:00
+[2026-09-18T13:45:27.932+0700] {logging_mixin.py:190} INFO - Task hostname:andreass-laptop.local operator:PythonOperator
+[2026-09-18T13:45:27.958+0700] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-09-18T13:45:27.969+0700] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-09-18T13:45:27.970+0700] {local_task_job_runner.py:245} INFO - ::endgroup::

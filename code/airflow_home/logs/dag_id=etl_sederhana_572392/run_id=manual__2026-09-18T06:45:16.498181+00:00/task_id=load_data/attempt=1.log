@@ -1,0 +1,30 @@
+[2026-09-18T13:45:31.014+0700] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-09-18T13:45:31.022+0700] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_sederhana_572392.load_data manual__2026-09-18T06:45:16.498181+00:00 [queued]>
+[2026-09-18T13:45:31.026+0700] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_sederhana_572392.load_data manual__2026-09-18T06:45:16.498181+00:00 [queued]>
+[2026-09-18T13:45:31.026+0700] {taskinstance.py:2867} INFO - Starting attempt 1 of 2
+[2026-09-18T13:45:31.032+0700] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): load_data> on 2026-09-18 06:45:16.498181+00:00
+[2026-09-18T13:45:31.042+0700] {standard_task_runner.py:72} INFO - Started process 6894 to run task
+[2026-09-18T13:45:31.046+0700] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'etl_sederhana_572392', 'load_data', 'manual__2026-09-18T06:45:16.498181+00:00', '--job-id', '22', '--raw', '--subdir', 'DAGS_FOLDER/etl_sederhana_572392.py', '--cfg-path', '/var/folders/xk/3zm4vwbd7nldz9xz371vw8x40000gn/T/tmpk4ofdw1c']
+[2026-09-18T13:45:31.047+0700] {standard_task_runner.py:105} INFO - Job 22: Subtask load_data
+[2026-09-18T13:45:31.073+0700] {task_command.py:467} INFO - Running <TaskInstance: etl_sederhana_572392.load_data manual__2026-09-18T06:45:16.498181+00:00 [running]> on host andreass-laptop.local
+[2026-09-18T13:45:31.109+0700] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Andreas Anditya Purnama' AIRFLOW_CTX_DAG_ID='etl_sederhana_572392' AIRFLOW_CTX_TASK_ID='load_data' AIRFLOW_CTX_EXECUTION_DATE='2026-09-18T06:45:16.498181+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-09-18T06:45:16.498181+00:00'
+[2026-09-18T13:45:31.110+0700] {logging_mixin.py:190} INFO - Task instance is in running state
+[2026-09-18T13:45:31.110+0700] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2026-09-18T13:45:31.110+0700] {logging_mixin.py:190} INFO - Current task name:load_data state:running start_date:2026-09-18 06:45:31.022278+00:00
+[2026-09-18T13:45:31.110+0700] {logging_mixin.py:190} INFO - Dag name:etl_sederhana_572392 and current dag run status:running
+[2026-09-18T13:45:31.110+0700] {taskinstance.py:732} INFO - ::endgroup::
+[2026-09-18T13:45:31.119+0700] {etl_sederhana_572392.py:56} INFO - [load_data] Memuat 1,236 baris agregasi harian
+[2026-09-18T13:45:31.119+0700] {etl_sederhana_572392.py:56} INFO - [load_data] Memuat 3 ringkasan kategori
+[2026-09-18T13:45:31.128+0700] {etl_sederhana_572392.py:56} INFO - [load_data] SQLite warehouse: /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/data/output/superstore_dw.sqlite
+[2026-09-18T13:45:31.397+0700] {etl_sederhana_572392.py:56} INFO - [load_data] Grafik disimpan: /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/data/output/sales_overview.png
+[2026-09-18T13:45:31.398+0700] {etl_sederhana_572392.py:56} INFO - [load_data] Load selesai. Output siap dianalisis.
+[2026-09-18T13:45:31.398+0700] {python.py:240} INFO - Done. Returned value was: None
+[2026-09-18T13:45:31.401+0700] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2026-09-18T13:45:31.401+0700] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=etl_sederhana_572392, task_id=load_data, run_id=manual__2026-09-18T06:45:16.498181+00:00, execution_date=20260918T064516, start_date=20260918T064531, end_date=20260918T064531
+[2026-09-18T13:45:31.408+0700] {logging_mixin.py:190} INFO - Task instance in success state
+[2026-09-18T13:45:31.408+0700] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2026-09-18T13:45:31.408+0700] {logging_mixin.py:190} INFO - Dag name:etl_sederhana_572392 queued_at:2026-09-18 06:45:16.514306+00:00
+[2026-09-18T13:45:31.409+0700] {logging_mixin.py:190} INFO - Task hostname:andreass-laptop.local operator:PythonOperator
+[2026-09-18T13:45:31.430+0700] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-09-18T13:45:31.438+0700] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-09-18T13:45:31.438+0700] {local_task_job_runner.py:245} INFO - ::endgroup::
