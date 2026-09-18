@@ -279,3 +279,17 @@
 [2026-09-18T12:14:21.848+0700] {logging_mixin.py:190} INFO - [2026-09-18T12:14:21.848+0700] {dag.py:3239} INFO - Sync 1 DAGs
 [2026-09-18T12:14:21.859+0700] {logging_mixin.py:190} INFO - [2026-09-18T12:14:21.859+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2026-09-17 00:00:00+00:00, run_after=2026-09-18 00:00:00+00:00
 [2026-09-18T12:14:21.869+0700] {processor.py:208} INFO - Processing /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.118 seconds
+[2026-09-18T12:15:49.055+0700] {processor.py:186} INFO - Started process (PID=48209) to work on /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2026-09-18T12:15:49.056+0700] {processor.py:914} INFO - Processing file /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-09-18T12:15:49.057+0700] {logging_mixin.py:190} INFO - [2026-09-18T12:15:49.057+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2026-09-18T12:15:49.062+0700] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2026-09-18T12:15:49.154+0700] {logging_mixin.py:190} INFO - [2026-09-18T12:15:49.154+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-18T12:15:49.165+0700] {logging_mixin.py:190} INFO - [2026-09-18T12:15:49.165+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2026-09-17 00:00:00+00:00, run_after=2026-09-18 00:00:00+00:00
+[2026-09-18T12:15:49.175+0700] {processor.py:208} INFO - Processing /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.122 seconds
+[2026-09-18T12:17:17.001+0700] {processor.py:186} INFO - Started process (PID=49401) to work on /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2026-09-18T12:17:17.002+0700] {processor.py:914} INFO - Processing file /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-09-18T12:17:17.003+0700] {logging_mixin.py:190} INFO - [2026-09-18T12:17:17.003+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2026-09-18T12:17:17.008+0700] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2026-09-18T12:17:17.097+0700] {logging_mixin.py:190} INFO - [2026-09-18T12:17:17.096+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-18T12:17:17.107+0700] {logging_mixin.py:190} INFO - [2026-09-18T12:17:17.107+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2026-09-17 00:00:00+00:00, run_after=2026-09-18 00:00:00+00:00
+[2026-09-18T12:17:17.117+0700] {processor.py:208} INFO - Processing /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.119 seconds

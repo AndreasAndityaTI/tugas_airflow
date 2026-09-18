@@ -146,3 +146,10 @@
 [2026-09-18T12:15:22.468+0700] {logging_mixin.py:190} INFO - [2026-09-18T12:15:22.468+0700] {dag.py:3239} INFO - Sync 1 DAGs
 [2026-09-18T12:15:22.480+0700] {logging_mixin.py:190} INFO - [2026-09-18T12:15:22.480+0700] {dag.py:4180} INFO - Setting next_dagrun for example_bash_operator to 2026-09-17 00:00:00+00:00, run_after=2026-09-18 00:00:00+00:00
 [2026-09-18T12:15:22.490+0700] {processor.py:208} INFO - Processing /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/.venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.126 seconds
+[2026-09-18T12:18:19.855+0700] {processor.py:186} INFO - Started process (PID=50474) to work on /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/.venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2026-09-18T12:18:19.856+0700] {processor.py:914} INFO - Processing file /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/.venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2026-09-18T12:18:19.856+0700] {logging_mixin.py:190} INFO - [2026-09-18T12:18:19.856+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/.venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2026-09-18T12:18:19.865+0700] {processor.py:925} INFO - DAG(s) 'example_bash_operator' retrieved from /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/.venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2026-09-18T12:18:19.962+0700] {logging_mixin.py:190} INFO - [2026-09-18T12:18:19.961+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-18T12:18:19.973+0700] {logging_mixin.py:190} INFO - [2026-09-18T12:18:19.973+0700] {dag.py:4180} INFO - Setting next_dagrun for example_bash_operator to 2026-09-17 00:00:00+00:00, run_after=2026-09-18 00:00:00+00:00
+[2026-09-18T12:18:19.983+0700] {processor.py:208} INFO - Processing /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/.venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.131 seconds
