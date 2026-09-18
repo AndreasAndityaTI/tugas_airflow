@@ -1,0 +1,42 @@
+[2026-09-18T11:18:40.857+0700] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-09-18T11:18:40.867+0700] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_sederhana_572392.validate_data manual__2026-09-18T04:17:14+00:00 [queued]>
+[2026-09-18T11:18:40.872+0700] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_sederhana_572392.validate_data manual__2026-09-18T04:17:14+00:00 [queued]>
+[2026-09-18T11:18:40.873+0700] {taskinstance.py:2867} INFO - Starting attempt 1 of 2
+[2026-09-18T11:18:40.881+0700] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): validate_data> on 2026-09-18 04:17:14+00:00
+[2026-09-18T11:18:40.892+0700] {standard_task_runner.py:72} INFO - Started process 11443 to run task
+[2026-09-18T11:18:40.899+0700] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'etl_sederhana_572392', 'validate_data', 'manual__2026-09-18T04:17:14+00:00', '--job-id', '6', '--raw', '--subdir', 'DAGS_FOLDER/etl_sederhana_572392.py', '--cfg-path', '/var/folders/xk/3zm4vwbd7nldz9xz371vw8x40000gn/T/tmpopvonun3']
+[2026-09-18T11:18:40.901+0700] {standard_task_runner.py:105} INFO - Job 6: Subtask validate_data
+[2026-09-18T11:18:40.928+0700] {task_command.py:467} INFO - Running <TaskInstance: etl_sederhana_572392.validate_data manual__2026-09-18T04:17:14+00:00 [running]> on host andreass-laptop.local
+[2026-09-18T11:18:40.971+0700] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Andreas Anditya Purnama' AIRFLOW_CTX_DAG_ID='etl_sederhana_572392' AIRFLOW_CTX_TASK_ID='validate_data' AIRFLOW_CTX_EXECUTION_DATE='2026-09-18T04:17:14+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-09-18T04:17:14+00:00'
+[2026-09-18T11:18:40.972+0700] {logging_mixin.py:190} INFO - Task instance is in running state
+[2026-09-18T11:18:40.972+0700] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2026-09-18T11:18:40.972+0700] {logging_mixin.py:190} INFO - Current task name:validate_data state:running start_date:2026-09-18 04:18:40.868016+00:00
+[2026-09-18T11:18:40.972+0700] {logging_mixin.py:190} INFO - Dag name:etl_sederhana_572392 and current dag run status:running
+[2026-09-18T11:18:40.973+0700] {taskinstance.py:732} INFO - ::endgroup::
+[2026-09-18T11:18:40.973+0700] {etl_sederhana_572392.py:56} INFO - [validate_data] Membaca staging: /Users/andreasanditya/Downloads/572392_Andreas_AirflowETL/code/data/staging/superstore_staging.csv
+[2026-09-18T11:18:41.021+0700] {etl_sederhana_572392.py:56} INFO - [validate_data] Dataset staging: 9,994 baris
+[2026-09-18T11:18:41.021+0700] {etl_sederhana_572392.py:56} INFO - [validate_data] === NULL VALUE CHECK ===
+[2026-09-18T11:18:41.027+0700] {etl_sederhana_572392.py:56} INFO - [validate_data] Null 'Order ID': 0 baris (0.00%)
+[2026-09-18T11:18:41.030+0700] {etl_sederhana_572392.py:56} INFO - [validate_data] Null 'Order Date': 0 baris (0.00%)
+[2026-09-18T11:18:41.033+0700] {etl_sederhana_572392.py:56} INFO - [validate_data] Null 'Customer ID': 0 baris (0.00%)
+[2026-09-18T11:18:41.040+0700] {etl_sederhana_572392.py:56} INFO - [validate_data] Null 'Sales': 0 baris (0.00%)
+[2026-09-18T11:18:41.045+0700] {etl_sederhana_572392.py:56} INFO - [validate_data] Null 'Quantity': 0 baris (0.00%)
+[2026-09-18T11:18:41.052+0700] {etl_sederhana_572392.py:56} INFO - [validate_data] Null 'Profit': 0 baris (0.00%)
+[2026-09-18T11:18:41.060+0700] {etl_sederhana_572392.py:56} INFO - [validate_data] Null 'Postal Code': 11 baris (0.11%)
+[2026-09-18T11:18:41.060+0700] {etl_sederhana_572392.py:119} WARNING - [validate_data] Ditemukan nilai kosong pada 'Postal Code' — dicatat, pipeline dilanjutkan
+[2026-09-18T11:18:41.060+0700] {etl_sederhana_572392.py:56} INFO - [validate_data] === DUPLICATE RECORDS CHECK ===
+[2026-09-18T11:18:41.078+0700] {etl_sederhana_572392.py:56} INFO - [validate_data] Duplikat baris penuh: 0
+[2026-09-18T11:18:41.078+0700] {etl_sederhana_572392.py:56} INFO - [validate_data] Duplikat (Order ID + Product ID): 8
+[2026-09-18T11:18:41.078+0700] {etl_sederhana_572392.py:138} WARNING - [validate_data] Duplikat terdeteksi — tidak menghapus baris, hanya dicatat
+[2026-09-18T11:18:41.079+0700] {etl_sederhana_572392.py:56} INFO - [validate_data] Ringkasan kualitas: null_issues=11, full_dups=0, order_product_dups=8
+[2026-09-18T11:18:41.079+0700] {etl_sederhana_572392.py:56} INFO - [validate_data] Validasi selesai. Pipeline dilanjutkan ke transform.
+[2026-09-18T11:18:41.080+0700] {python.py:240} INFO - Done. Returned value was: None
+[2026-09-18T11:18:41.083+0700] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2026-09-18T11:18:41.084+0700] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=etl_sederhana_572392, task_id=validate_data, run_id=manual__2026-09-18T04:17:14+00:00, execution_date=20260918T041714, start_date=20260918T041840, end_date=20260918T041841
+[2026-09-18T11:18:41.093+0700] {logging_mixin.py:190} INFO - Task instance in success state
+[2026-09-18T11:18:41.094+0700] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2026-09-18T11:18:41.094+0700] {logging_mixin.py:190} INFO - Dag name:etl_sederhana_572392 queued_at:2026-09-18 04:17:14.719523+00:00
+[2026-09-18T11:18:41.094+0700] {logging_mixin.py:190} INFO - Task hostname:andreass-laptop.local operator:PythonOperator
+[2026-09-18T11:18:41.116+0700] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-09-18T11:18:41.131+0700] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-09-18T11:18:41.132+0700] {local_task_job_runner.py:245} INFO - ::endgroup::
